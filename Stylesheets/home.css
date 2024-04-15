@@ -1,0 +1,104 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Light mode styles */
+.light-mode {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #343a40;
+  color: #fff;
+}
+
+/* Add your custom CSS styles here */
+
+/* To align the account dropdown menu to the right */
+.navbar-nav {
+  margin-left: auto;
+}
+.navbar-css {
+  margin-right: 85px;
+}
+/* To style the dropdown menu items */
+.dropdown-menu {
+  background-color: #343a40;
+}
+
+.dropdown-item {
+  color: #fff !important;
+}
+.dropdown-item:hover {
+  background-color: #6f91b2;
+}
+.jumbotron {
+  background: linear-gradient(
+    to right,
+    rgb(164, 102, 112),
+    rgb(224, 172, 89)
+  ); /* fallback color in case images don't load */
+  background-size: cover;
+  color: #fff;
+  padding: 100px 0;
+  height: 40vh;
+  animation: changeBackground 10s infinite; /* 3 images, change every 10 seconds */
+}
+
+@keyframes changeBackground {
+  0% {
+    background-image: url("../Images/background.jpg");
+  }
+  33.33% {
+    background-image: url("../Images/background2.jpg");
+  }
+  66.67% {
+    background-image: url("../Images/background3.jpg");
+  }
+}
+
+.jumbotron h1 {
+  font-weight: 700;
+}
+
+.we-do {
+  background: linear-gradient(to right, rgb(164, 102, 112), rgb(224, 172, 89));
+  box-shadow: 10px 10px 10px rgb(164, 102, 112);
+}
+.we-do:hover {
+  transform: scale(1.1);
+}
+.feature {
+  padding: 50px 0;
+}
+.feature-icon {
+  font-size: 3rem;
+  color: #007bff;
+}
+.feature-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.feature-description {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: auto;
+}

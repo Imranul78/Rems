@@ -1,0 +1,138 @@
+/* * {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16.66px;
+}
+:root {
+  --bg-color: rgb(172, 205, 239);
+  --second-bg-color: linear-gradient(
+    to right,
+    rgb(57, 119, 114),
+    rgb(51, 108, 135)
+  );
+}
+
+body {
+  background: var(--bg-color);
+}
+
+.form-div {
+  background: var(--bg-color);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  background: var(--second-bg-color);
+  padding: 4rem;
+  height: 60vh;
+  border-radius: 5%;
+  box-shadow: 50px 50px 20px #387575;
+}
+input {
+  display: block;
+  margin: 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 0.1rem solid black;
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16.66px;
+  scroll-behavior: smooth;
+}
+:root {
+  --bg-color: rgb(223, 239, 248);
+  --second-bg-color: #ffff;
+}
+body {
+  background: var(--bg-color);
+}
+.container {
+  display: block;
+  background: var(--second-bg-color);
+  padding: 2rem;
+  height: 90vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 1rem 1rem 0.2rem rgb(102, 198, 185);
+}
+.container h1 {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.account-type {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+.image-button {
+  width: 6rem;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+#tag {
+  position: relative;
+  left: 2.5rem;
+  top: -1.5rem;
+}
+.text {
+  margin: 1rem 0;
+  height: 4rem;
+}
+form {
+  display: block;
+  margin: 2rem;
+}
+form input {
+  display: block;
+  margin: 1rem 0;
+  width: 100%;
+  padding: 0.4rem;
+}
+.login-button {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.login-button button {
+  margin-left: 2rem;
+  padding: 0.5rem;
+  color: var(--bg-color);
+  background: rgb(70, 174, 220);
+  border: none;
+  width: 6rem;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.login-button button:hover {
+  background: rgb(102, 198, 185);
+  color: var(--bg-color);
+}
+.login-button a {
+  color: rgb(42, 132, 171);
+}
+.js-text {
+  text-align: center;
+}
+span {
+  color: rgb(42, 132, 171);
+  text-transform: uppercase;
+}

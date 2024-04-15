@@ -1,0 +1,56 @@
+.heading {
+  color: rgb(217, 164, 91);
+  font-weight: 600;
+  margin: 0.5rem 1rem;
+}
+
+.horizontal-bar hr {
+  background-color: rgb(226, 78, 58);
+  height: 0.1rem;
+  width: auto;
+  margin: 1rem 1rem;
+}
+
+.table-view {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  color: rgb(217, 164, 91);
+  padding: 12px;
+  text-align: left;
+  border: 1px solid rgb(232, 141, 69);
+}
+
+th {
+  background-color: rgb(211, 157, 93);
+  color: white;
+}
+
+/* tr:hover {
+  background-color: #ddd;
+  font-size: 22px;
+} */
+
+.create-button {
+  border: none;
+  background-color: rgb(211, 157, 93);
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  width: auto;
+
+  cursor: pointer;
+}
